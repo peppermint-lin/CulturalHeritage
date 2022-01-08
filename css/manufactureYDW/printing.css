@@ -1,0 +1,128 @@
+body {
+	background-image: url(../../images/manufactureYDW/printingBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.materialWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#board {
+	width: 25%;
+	margin-left: 15%;
+	cursor: pointer;
+}
+
+#redPaper {
+	width: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.columnWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 20%;
+	height: 100%;
+}
+
+#redPigment {
+	height: 30%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+#brownPigment {
+	height: 30%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 30%;
+	height: 3%;
+}
+
+.tipsWrapper {
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	height: 40%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+	/*visibility: hidden;*/
+}
+
+.tipsTittle {
+	font-size: 2.4em;
+	line-height: 2.4em;
+}
+
+.tipsContent {
+	font-size: 1.2em;
+	line-height: 2em;
+    flex-grow: 1;
+    text-indent: 2em;
+}
+
+.howToDo {
+	align-self: flex-end;
+}
+
+.gifWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+}
+
+.gifWrapper>img {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}
+
+.next {
+	position: absolute;
+	top: 8%;
+	right: 6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	/*visibility: hidden;*/
+	cursor: pointer;
+	z-index: 1000;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}

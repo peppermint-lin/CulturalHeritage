@@ -1,0 +1,51 @@
+body {
+	background-image: url(../../images/manufactureHYMD/sketch.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.draftWrapper {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.draft {
+	cursor: pointer;
+	width: 304px;
+	height: 358px;
+}
+
+.draft:hover {
+	transform: scale(1.1);
+}
+
+
+#draft1 {
+	margin-right: 10%;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 30%;
+	height: 3%;
+}
+
+#home {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+}

@@ -1,0 +1,145 @@
+@media all and (min-width: 310px) {
+	html {
+		font-size: 94px;
+	}
+}
+@media all and (min-width: 370px) {
+	html {
+		font-size: 110px;
+	}
+}
+@media all and (min-width: 410px) {
+	html {
+		font-size: 120px;
+	}
+}
+
+@keyframes active {
+	0% {
+		margin-top: 0rem;
+		margin-left: 0rem;
+		opacity: 1;
+	}
+	100% {
+        margin-top: -0.73rem;
+        margin-left: -0.73rem;
+        opacity: 0;
+	}
+}
+
+@keyframes unactive {
+	0% {
+		margin-top: -0.73rem;
+        margin-left: -0.73rem;
+        opacity: 0;
+	}
+	100% {
+        margin-top: 0rem;
+		margin-left: 0rem;
+		opacity: 1;
+	}
+}
+
+body {
+	background-image: url(../../images/adventureYDW/background2.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}
+
+.card_box {
+	margin-top: -2%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page_mengceng {
+	position: fixed;
+	top: 0;
+	display: none;
+	z-index: 1000;
+	left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card_border {
+	width: 3.4rem;
+	height: 3.4rem;
+	font-size: 0;
+}
+
+.card {
+	height: 0.73rem;
+    width: 0.73rem;
+    cursor: pointer;
+	display: inline-block;
+	box-shadow: 0.05rem 0.05rem rgba(0,0,0,0.5);
+	overflow: hidden;
+	border-radius: 0.10rem;
+	margin-left: 0.10rem;
+	margin-top: 0.10rem;
+}
+
+.card_backImg {
+	position: relative;
+	z-index: 1;
+	height: 0.73rem;
+    width: 0.73rem;
+}
+
+.card_img {
+	position: absolute;
+	border-radius: 0.10rem;
+	height: 0.73rem;
+    width: 0.73rem;
+}
+
+.card_IndexNum {
+	opacity: 0;
+	z-index: -1;
+	position: relative;
+}
+
+.card_backImg_active {
+	margin-top: -0.73rem;
+	margin-left: -0.73rem;
+	opacity: 0;
+	animation: active 0.3s;
+}
+
+.card_backImg_Unactive {
+	margin-top: 0rem;
+	margin-left: 0rem;
+	opacity: 1;
+	animation: unactive 0.3s;
+}
+
+.tipsWrapper {
+	position: absolute;
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	height: 15%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	visibility: hidden;
+}
+
+.tipsTittle {
+	font-size: 0.4em;
+	line-height: 0.4em;
+}

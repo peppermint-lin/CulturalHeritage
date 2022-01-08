@@ -1,0 +1,111 @@
+.listWrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bookWrapper {
+	width: 1260px;
+	height: 825px;
+	/*width: 80%;*/
+	/*height: 92.1%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 15px;
+}
+
+.bookWrapper img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.labelWrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	top: 60px;
+	right: 35px;
+	background-color: red;
+	z-index: 999;
+}
+
+#main {
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#empty {
+	top: 60px;
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+	z-index: 999;
+	visibility: hidden;
+}
+
+#carving {
+	right: -40px;
+	top: 120px;
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#engraved {
+	right: -40px;
+	top: 180px;
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#lamp {
+	right: -40px;
+	top: 240px;
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.exerciseWrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.exerciseTitle {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.optionMerge {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.answerOption {
+	color: #008980;
+}

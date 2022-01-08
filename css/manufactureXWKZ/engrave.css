@@ -1,0 +1,109 @@
+body {
+	background-image: url(../../images/manufactureXWKZ/engraveBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tipsWrapper {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	letter-spacing: 0.1em;
+	font-family: "华文新魏";
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+#start {
+	display: inline;
+}
+
+#finish {
+	display: none;
+}
+
+#tool {
+	position: absolute;
+	width: 100px;
+	height: 70px;
+	right: 70px;
+	bottom: 100px;
+	display: none;
+}
+
+.boardWrapper {
+	/*background-color: red;*/
+	width: 35%;
+	height: 65%;
+	margin-top: 8%;
+	background-image: url(../../images/manufactureXWKZ/board.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.coverBoardWrapper {
+	/*background-color: red;*/
+	width: 35%;
+	height: 65%;
+	margin-top: 8%;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 999;
+}
+
+.itemWrapper {
+	/*background-color: red;*/
+	box-sizing: border-box;
+	/*border: 2px solid red;*/
+	width: 80%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.coverWrapper {
+	/*background-color: red;*/
+	box-sizing: border-box;
+	/*border: 2px solid red;*/
+	width: 80%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.lineWrapper {
+	/*background-color: blue;*/
+	box-sizing: border-box;
+	width: 100%;
+	height: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.itemPic {
+	box-sizing: border-box;
+	/*border: 2px solid red;*/
+	width: 25%;
+	height: 100%;
+	/*cursor: pointer;*/
+}

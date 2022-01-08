@@ -1,0 +1,120 @@
+body {
+	background-image: url(../../images/manufactureHYMD/woodBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.materialWrapper {
+	width: 60%;
+	height: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.material {
+	height: 80%;
+	cursor: pointer;
+}
+
+.material:hover {
+	transform: scale(1.1);
+}
+
+.tipsWrapper {
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	height: 45%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.tipsTittle {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+.tipsContent {
+	font-size: 1.2em;
+	line-height: 2em;
+    flex-grow: 1;
+}
+
+.howToMove {
+	align-self: flex-end;
+}
+
+.fullScreen {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+}
+
+.warnWrapper {
+	border: 10px #CC4D4D solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	height: 25%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.warnTittle {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+.warnContent {
+	color: #144FAC;
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+.finish {
+	position: absolute;
+	top: 8%;
+	right: 6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#operateGIF {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#operateTitle {
+	position: absolute;
+	align-items: flex-end;
+	width: 23%;
+	top: 7%;
+	z-index: 999;
+	visibility: hidden;
+}

@@ -1,0 +1,116 @@
+@font-face {
+	font-family: 'HanYiXueJun'; 
+	src: url('../../fonts/HanYiXueJun.ttf') format('truetype');
+}
+
+body {
+	background-image: url(../../images/adventureXWKZ/doorBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot {
+	position: absolute;
+	width: 40px;
+	cursor: pointer;
+	visibility: visible;
+}
+
+#dot {
+	top: 60%;
+	left: 48.3%;
+}
+
+#dot1 {
+	top: 45%;
+	left: 45%;
+	display: none;
+}
+
+#dot2 {
+	top: 45%;
+	right: 11%;
+	display: none;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height: 3%;
+}
+
+#home {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.textWrapper {
+	font-family: "HanYiXueJun";
+	font-size: 4em;
+	line-height: 2em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.picWrapper {
+	width: 50%;
+	height: 80%;
+	display: none;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}
+
+.picItem {
+	height: 100%;
+	cursor: pointer;
+	display: none;
+}
+
+#shuangYu {
+	width: 90%;
+}
+
+#longMen {
+	width: 65%;
+}
+
+.picText {
+	writing-mode: vertical-lr;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	letter-spacing: 0.5em;
+	margin-left: 2%;
+}
+
+.finishWrapper, .nextWrapper {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	letter-spacing: 0.1em;
+	font-family: "华文新魏";
+	font-weight: bold;
+	cursor: pointer;
+	display: none;
+}

@@ -1,0 +1,109 @@
+body {
+	background-image: url(../../images/manufactureYDW/stickBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.materialWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#skeleton {
+	width: 34%;
+	margin-left: 9%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.columnWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+}
+
+#sticker {
+	width: 80%;
+	margin-left: 9%;
+}
+
+#redPigment {
+	width: 45%;
+	margin-left: 9%;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 30%;
+	height: 3%;
+}
+
+.tipsWrapper {
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	height: 15%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+	/*visibility: hidden;*/
+}
+
+.tipsTittle {
+	font-size: 2.4em;
+	line-height: 2.4em;
+}
+
+.gifWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+}
+
+.gifWrapper>img {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}
+
+.finish {
+	position: absolute;
+	top: 8%;
+	right: 6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	/*visibility: hidden;*/
+	cursor: pointer;
+	z-index: 1000;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}

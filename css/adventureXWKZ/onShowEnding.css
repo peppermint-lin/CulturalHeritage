@@ -1,0 +1,116 @@
+#endingScroll {
+	height: 100%;
+}
+
+.dot {
+	position: absolute;
+	width: 40px;
+	cursor: pointer;
+	visibility: visible;
+}
+
+#dot1 {
+	top: 30%;
+	left: 28%;
+}
+
+#dot2 {
+	top: 64%;
+	left: 101%;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height: 3%;
+}
+
+#home {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+/*#progress {
+	height: 80%;
+}*/
+
+.progressTitle {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.progress {
+	background-color: rgba(100, 100, 100, 0.2);
+	border-radius: 5px;
+	position: relative;
+	margin: 0 10px;
+	height: 80%;
+	width: 200px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, rgb(204, 232, 245), rgb(112, 200, 242));
+	box-shadow: 0 3px 3px -5px rgb(112, 200, 242), 0 2px 5px rgb(112, 200, 242);
+	border-radius: 5px;
+	height: 80%;
+	width: 0;
+	transition: width 1s ease 0.3s;
+}
+
+.percent {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.textWrapper {
+	/*background-color: red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+
+.tipsWrapper {
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 50%;
+	height: 25%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.tipsTittle {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+.tipsContent {
+	font-size: 1.2em;
+	line-height: 2em;
+    flex-grow: 1;
+}
+
+.tipsEnd {
+	align-self: flex-end;
+}

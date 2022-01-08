@@ -1,0 +1,156 @@
+body {
+	background-image: url(../../images/unpack/background.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*#background {
+	position: absolute;
+	top: 0
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
+
+.tipText {
+	background-color: #F6E4C8;
+	border: 5px #9ABDD3 solid;
+	position: absolute;
+	align-self: flex-start;
+	border-radius: 50px;
+	padding: 5% 3%;
+	margin-left: 5%;
+	text-align: center;
+	writing-mode: vertical-lr;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 5px;
+	/*color: white;*/
+	z-index: 999;
+	/*visibility: hidden;*/
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+}
+
+.tipText>span {
+	font-weight: bold;
+}
+
+.emText {
+	color: #B61F00;
+}
+
+.middleWrapper {
+	background-image: url(../../images/unpack/package.png);
+	background-size: 100% 100%;
+	position: relative;
+	width: 50%;
+	height: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.orderWrapper {
+	background-color: #F6E4C8;
+	width: 50%;
+	height: 45%;
+	margin-top: -15%;
+	border: 8px #9ABDD3 solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.orderTitle {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	border-bottom: 1px black solid;
+	padding: 1% 20%;
+}
+
+.sendWrapper, .receiveWrapper {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border: 1px black solid;
+	width: 85%;
+	height: 35%;
+	margin-top: 10px;
+	padding-left: 15%; 
+	font-size: 1.1em;
+	line-height: 2em;
+	/*text-align: center;*/
+}
+
+/*#package {
+	z-index: 1;
+}*/
+
+#dashed {
+	position: absolute;
+	top: 0;
+	height: 79%;
+	z-index: 1;
+}
+
+/*#redDotCut {
+	background-color: yellow;
+	position: absolute;
+	top: 15px;
+	cursor: pointer;
+}*/
+
+#cut {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*#redDotKnife {
+	background-color: yellow;
+	position: absolute;
+	bottom: 15%;
+	right: 12%;
+	z-index: 3;
+	cursor: pointer;
+}*/
+
+#knife {
+	width: 15%;
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	/*cursor: move;*/
+	cursor: pointer;
+	z-index: 2;
+}
+
+#opened {
+	width: 80%;
+	animation: fadeIn 1.5s linear;
+	-webkit-animation: fadeIn 1.5s linear;
+}
+
+#book {
+	width: 80%;
+	animation: fadeIn 0.5s linear;
+	-webkit-animation: fadeIn 0.5s linear;
+}
+
+#love {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+}

@@ -1,0 +1,36 @@
+body {
+	background-image: url(../../images/manufactureXWKZ/packBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.boardWrapper {
+	/*background-color: red;*/
+	width: 35%;
+	height: 65%;
+	margin-top: 8%;
+	background-image: url(../../images/manufactureXWKZ/finish1.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+}
+
+.finish {
+	position: absolute;
+	top: 8%;
+	right: 6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+}

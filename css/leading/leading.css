@@ -1,0 +1,87 @@
+#book {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	animation: fadeIn 3s linear;
+	-webkit-animation: fadeIn 3s linear;
+	z-index: -999;
+}
+
+#share {
+	width: 100%;
+	height: 100%;
+}
+
+.cartoonWrapper {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border: 10px black double;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+}
+
+.lineWrapper {
+	box-sizing: border-box;
+	width: 100%;
+	height: 50%;
+	border: 10px black double;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.leftWrapper {
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	border-right: 10px black double;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightWrapper {
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	border-left: 10px black double;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#item1 {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s ease-in;
+	-webkit-animation: fadeIn 1s ease-in;
+}
+
+#item2 {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s ease-in;
+	-webkit-animation: fadeIn 1s ease-in;
+}
+
+#item3 {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s ease-in;
+	-webkit-animation: fadeIn 1s ease-in;
+}
+
+#item4 {
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1s ease-in;
+	-webkit-animation: fadeIn 1s ease-in;
+}

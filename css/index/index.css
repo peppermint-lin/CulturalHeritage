@@ -1,0 +1,100 @@
+#background {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	animation: fadeIn 3s linear;
+	-webkit-animation: fadeIn 3s linear;
+}
+
+.coverWrapper {
+	/*background-color: red;*/
+	/*opacity: 0.5;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 26.5%;
+	height: 68%;
+	position: absolute;
+	right: 24%;
+	top: 17%;
+}
+
+.headerWrapper {
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+}
+
+#title {
+	/*background-color: green;*/
+	width: 70%;
+	align-self: flex-start;
+	margin-top: 15%;
+}
+
+#seal {
+	/*background-color: blue;*/
+	height: 40%;
+	align-self: flex-end;
+	margin-bottom: 10%;
+	animation: sealing 3s ease-in;
+	-webkit-animation: sealing 3s ease-in;
+}
+
+.tagWrapper {
+	/*background-color: black;*/
+	margin-top: 15%;
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#newPlayer, #oldPlayer {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
+	border: 5px white solid;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 150%;
+	font-family: "楷体";
+	font-weight: bold;
+	vertical-align: middle;
+	box-shadow: 5px 5px 10px grey;
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.emText {
+	color: #A35444;
+	font-size: 170%;
+	vertical-align: middle;
+}
+
+#newPlayer {
+	margin-top: 5%;
+}
+
+#oldPlayer {
+	margin-bottom: 5%;
+}
+
+#newPlayer:hover {
+	margin-top: 4%;
+	box-shadow: 0px 5px 10px white;
+}
+
+#oldPlayer:hover {
+	margin-bottom: 6%;
+	box-shadow: 0px 5px 10px white;
+}

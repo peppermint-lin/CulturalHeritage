@@ -1,0 +1,79 @@
+#pictureScroll {
+	height: 100%;
+}
+
+.dot {
+	position: absolute;
+	width: 40px;
+	cursor: pointer;
+	visibility: visible;
+}
+
+#dot1 {
+	top: 24%;
+	left: 24%;
+}
+
+#dot2 {
+	top: 40%;
+	left: 48%;
+}
+
+#dot3 {
+	top: 67%;
+	left: 103%;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height: 3%;
+}
+
+#home {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+/*#progress {
+	height: 80%;
+}*/
+
+.progressTitle {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.progress {
+	background-color: rgba(100, 100, 100, 0.2);
+	border-radius: 5px;
+	position: relative;
+	margin: 0 10px;
+	height: 80%;
+	width: 200px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, rgb(204, 232, 245), rgb(112, 200, 242));
+	box-shadow: 0 3px 3px -5px rgb(112, 200, 242), 0 2px 5px rgb(112, 200, 242);
+	border-radius: 5px;
+	height: 80%;
+	width: 0;
+	transition: width 1s ease 0.3s;
+}
+
+.percent {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
