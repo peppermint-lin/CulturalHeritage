@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>乐在其中 清韵非遗</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/public.css">
+    <link type="text/css" href="css/personalCenter/personalCenter.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/personalCenter/personalCenter.js"></script>
+</head>
+<body>
+	<div class="bookWrapper">
+		<img src="images/personalCenter/bookBG.png" alt="">
+		<div class="pageWrapper">
+			<div class="infoWrapper">
+				<div class="headWrapper">
+					<!-- <img id="head" src="images/personalCenter/head.png" alt=""> -->
+				</div>
+				<div class="textWrapper">
+					<div class="nicknameWrapper">
+						<p id="nickname">凡年Liyunfan</p>
+					</div>
+					<div class="tagWrapper">
+						<div id="integral" class="tagItem">
+							积分：111
+						</div>
+						<div id="rank" class="tagItem">
+							初出茅庐
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="progressWrapper">
+				<div class="finishWrapper">
+					<p class="title">完成进度</p>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">ta的奇遇</p>
+						<div class="progress">
+							<div class="progress-done" id="adventure" data-done="66.7"></div>
+						</div>
+						<span class="percent" id="adventurePercent">66.7%</span>
+					</div>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">与ta相熟</p>
+						<div class="progress">
+							<div class="progress-done" id="familiar" data-done="33.3"></div>
+						</div>
+						<span class="percent" id="familiarPercent">33.3%</span>
+					</div>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">磨砺匠心</p>
+						<div class="progress">
+							<div class="progress-done" id="manufacture" data-done="100"></div>
+						</div>
+						<span class="percent" id="manufacturePercent">100%</span>
+					</div>
+				</div>
+				<div class="correctWrapper">
+					<p class="title">答题正确率</p>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">黄杨木雕</p>
+						<div class="progress">
+							<div class="progress-done" id="HYMD" data-done="52.0"></div>
+						</div>
+						<span class="percent" id="HYMDPercent">52.0%</span>
+					</div>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">细纹刻纸</p>
+						<div class="progress">
+							<div class="progress-done" id="XWKZ" data-done="16.2"></div>
+						</div>
+						<span class="percent" id="XWKZPercent">16.2%</span>
+					</div>
+
+					<div class="itemWrapper">
+						<p class="progressTitle">鱼&ensp;灯&ensp;舞</p>
+						<div class="progress">
+							<div class="progress-done" id="YDW" data-done="83.1"></div>
+						</div>
+						<span class="percent" id="YDWPercent">83.1%</span>
+					</div>
+
+					<!-- <div class="itemWrapper"> -->
+						<!-- <p class="progressTitle">综合模式</p> -->
+						<!-- <div class="progress"> -->
+							<!-- <div class="progress-done" data-done="74.1"></div> -->
+						<!-- </div> -->
+						<!-- <span class="percent">74.1%</span> -->
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>
+		<div class="pageWrapper">
+			<div class="setupWrapper">
+				<h1>设置</h1>
+				<div class="soundsWrapper">
+					<p class="title">音频</p>
+					<div class="itemWrapper">
+						<p class="itemTitle">音效设置</p>
+						<input id="on" type="radio" name="sounds" checked="">开
+						<input id="off" type="radio" name="sounds">关
+					</div>
+					<div class="itemWrapper">
+						<p class="itemTitle">音量设置</p>
+						<input id="range" type="range" value="100">
+					</div>
+				</div>
+
+				<div class="changeWrapper">
+					<p class="title">个人信息修改</p>
+					<div id="firstChange" class="itemWrapper changeItem">
+						<p class="itemTitle">修改昵称</p>
+						<!-- <input id="inputNickname" class="inputNewItem" type="text" name="" value=""> -->
+						<p id="changeNickname" class="changeButton">点击修改</p>
+					</div>
+					<div id="secondChange" class="itemWrapper changeItem">
+						<p class="itemTitle">修改密码</p>
+						<!-- <input id="inputPassword" class="inputNewItem" type="password" name="" value=""> -->
+						<p id="changePassword" class="changeButton">点击修改</p>
+					</div>
+					<div id="thirdChange" class="itemWrapper changeItem">
+						<p class="itemTitle">确认密码</p>
+						<input id="inputPassword" class="inputNewItem" type="password" name="" value="">
+						<p id="savePassword" class="changeButton">确认修改</p>
+					</div>
+					<div id="forthChange" class="itemWrapper changeItem">
+						<p class="itemTitle">修改头像</p>
+						<!-- <input id="inputHead" class="inputNewItem" type="file" name="" value=""> -->
+						<p id="changeHead" class="changeButton">点击修改</p>
+					</div>
+				</div>
+
+				<div class="accountWrapper">
+					<p class="title">账号设置</p>
+					<div class="itemWrapper">
+						<p id="switch" class="itemTitle">切换账号</p>
+						<div id="switchButton" class="accountButton">
+							
+						</div>
+					</div>
+					<div class="itemWrapper">
+						<p id="logout" class="itemTitle">注销账号</p>
+						<div id="logoutButton" class="accountButton">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="labelWrapper">
+			<img id="main" class="label" src="images/personalCenter/main.png" alt="">
+		</div>
+	</div>
+	<!-- <div class="whiteBG"></div> -->
+	<audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+</body>
+</html>

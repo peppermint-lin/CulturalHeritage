@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>乐在其中 清韵非遗</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/manufactureHYMD/wood.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/manufactureHYMD/wood1.js"></script>
+</head>
+<body>
+	<!-- <img id="background" src="images/manufactureHYMD/woodBG.png" alt=""> -->
+	<div class="materialWrapper">
+		<img id="wood1" class="material" id="background" src="images/manufactureHYMD/wood1.png" alt="">
+		<img id="wood2" class="material" id="background" src="images/manufactureHYMD/wood2.png" alt="">
+		<img id="wood3" class="material" id="background" src="images/manufactureHYMD/wood3.png" alt="">
+		<img id="wood4" class="material" id="background" src="images/manufactureHYMD/wood4.png" alt="">
+	</div>
+	<div class="tipsWrapper">
+		<h1 class="tipsTittle"></h1>
+		<p class="tipsContent"></p>
+		<h3 class="howToMove">请选择正确的木材并点击</h3>
+	</div>
+	<div class="fullScreen">
+		<div class="warnWrapper">
+			<h1 class="warnTittle">很遗憾！选择错误</h1>
+			<p class="warnContent">错误原因：黄杨木雕不可选用过粗的木材</p>
+		</div>
+	</div>
+	<img id="operateTitle" src="images/manufactureHYMD/operateTitle.png" alt="">
+	<div class="finish">
+		<h1>完成制作</h1>
+	</div>
+
+	<audio id="hover" src="audios/hover-light.mp3" preload=""></audio>
+	<audio id="wrong" src="audios/wrong-light.mp3" preload=""></audio>
+	<audio id="correct" src="audios/correct-light.mp3" preload=""></audio>
+	<audio id="knocking" src="audios/manufactureHYMD/knocking-long.mp3" preload=""></audio>
+	<audio id="finish" src="audios/manufactureHYMD/finish.mp3" preload=""></audio>
+	<audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+
+	<script type="text/javascript">
+		var clientWidth = document.body.clientWidth;
+		var clientHeight = document.body.clientHeight;
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>乐在其中 清韵非遗</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/adventureHYMD/maze2.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/adventureHYMD/maze2.js"></script>
+</head>
+<body>
+	<div class="titleWrapper">
+		<p>坎坷发展路-第二关</p>
+	</div>
+	<div class="mazeWrapper">
+		<!-- <img id="maze" src="images/adventureHYMD/maze1.png" alt=""> -->
+		<!-- <img id="maze" src="images/adventureHYMD/endBackground.png" alt=""> -->
+		<!-- <div class="describeWrapper">
+			<p id="first" class="describe"></p>	
+			<p id="second" class="describe"></p>			
+		</div> -->
+		<img id="child" src="images/adventureHYMD/child2.png" alt="">
+	</div>
+	<div class="tipWrapper">
+		<p>请点击小孩，并根据迷宫路径及下一点位置，鼠标滑动控制小孩移动位置</p>
+	</div>
+	<!-- <img id="tip" src="images/adventureHYMD/tip3.gif" alt=""> -->
+	<audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+
+	<script src="js/adventureHYMD/l-by-l.min.js"></script>
+	<script type="text/javascript">
+		var begin = 140;
+		var isMove = false;
+		var edgeTop = $(".mazeWrapper")[0].offsetTop;
+		var edgeLeft = $(".mazeWrapper")[0].offsetLeft;
+		var halfWidth = $("#child")[0].offsetWidth / 2;
+		var halfHeight = $("#child")[0].offsetHeight / 2;
+	</script>
+</body>
+</html>
